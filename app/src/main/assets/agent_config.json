@@ -1,0 +1,12 @@
+{
+  "asrConfig": "",
+  "ttsConfig": "",
+  "brainConfig": "",
+  "features": "{\n  \"anti_interference\": {\n    \"semantic_judge_enabled\": true\n  },\n  \"speech_frontend\": {\n    \"enabled\": true,\n    \"enable_aec\": true,\n    \"enable_speech_separation\": false\n  },\n  \"vad_merge_mode\": true,\n  \"volume_and_repetition_text_detection\": true\n}",
+  "avatarAppId": "****",
+  "avatarAppSecret": "******",
+  "avatarGatewayServer": "https://nebula-agent.xingyun3d.com/user/v1/ttsa_v2/session",
+  "preCacheUrl": "https://nebula-agent.xingyun3d.com/user/v1/ttsa/precache",
+  "avatarInitConfigJson": "{\n      \"volume\":1,\n      \"framedata_proto_version\": 0,\n      \"enable_client_interrupt\": true,\n      \"raw_audio\": true,\n      \"upload_interval_minutes\": 2,\n      \"layout\": {\n        \"container\": {\n          \"size\": [1920, 1080]\n        },\n        \"avatar\": {\n          \"h_align\": \"center\",\n          \"v_align\": \"middle\",\n          \"scale\": 1,\n          \"offset_x\": 0,\n          \"offset_y\": 0\n        }\n      },\n      \"resolution\": {\n        \"width\": 1080,\n        \"height\": 1920\n      }    \n    }",
+  "extras": ""
+}

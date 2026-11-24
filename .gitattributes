@@ -1,0 +1,19 @@
+* text=auto
+
+# Shell scripts must keep LF so they run on Linux/macOS.
+gradlew text eol=lf
+*.sh text eol=lf
+# Windows batch files must keep CRLF.
+*.bat text eol=crlf
+
+# Binary assets
+*.jar binary
+*.aar binary
+*.apk binary
+*.aab binary
+*.keystore binary
+*.jks binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
